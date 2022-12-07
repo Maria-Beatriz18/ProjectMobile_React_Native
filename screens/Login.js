@@ -40,7 +40,8 @@ export default function Login({route,navigation}){
 </View>
 
 <View style={{ paddingTop:20}}>
-<Button buttonStyle={{backgroundColor:"red"}} title="Cadastrar-se"/>
+<Button buttonStyle={{backgroundColor:"red"}} title="Cadastrar-se"
+onPress={()=>navigation.navigate('CadastroUsuario')}/>
 </View>
 </View>
 );};
