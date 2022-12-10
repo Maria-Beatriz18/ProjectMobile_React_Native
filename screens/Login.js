@@ -36,7 +36,7 @@ export default function Login({route,navigation}){
 </View>
   
 <View style={{ paddingTop:40}} >
-<Button  title="Login"/>
+<Button  title="Login" onPress={()=>navigation.navigate('ListaContatos')}/>
 </View>
 
 <View style={{ paddingTop:20}}>
